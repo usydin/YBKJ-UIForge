@@ -1,5 +1,8 @@
 # YBKJ-UIForge
 
+![YBKJ-UIForge Logo](assets/brand/uiforge-logo.png)
+
+
 YBKJ-UIForge is a reusable UI design system, AI development rule library, and frontend refinement toolkit for YBKJ smart maintenance products and personal projects.
 
 It is designed to help projects move beyond generic AI-generated interfaces by providing shared design tokens, industrial-grade UI principles, reusable component patterns, AGENTS.md templates, Codex / Trae prompts, smoke checklists, and project migration guides.
