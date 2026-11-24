@@ -9,6 +9,8 @@ It is designed to help projects move beyond generic AI-generated interfaces by p
 
 The first verified source project is YBKJ-LinkScope-V2. Future adaptations may include ZWCloudCode, GeoLink, NexOps, RefNova, ybkj-ai.xyz, and selected personal projects.
 
+[版权与复用边界（治理审阅稿）](COPYRIGHT.md) · [安全政策（治理审阅稿）](SECURITY.md)
+
 ## 中文定位
 
 YBKJ-UIForge 是面向友邦科技智慧维保体系与个人项目的通用 UI 锻造库。
