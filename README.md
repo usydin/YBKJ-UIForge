@@ -8,7 +8,7 @@
 
 <p align="center">工业 UI 设计原则与可复用研发规则库</p>
 
-<p align="center"><img src="assets/brand/readme-badges.svg" alt="Design rules · Markdown · Industrial UI · Smoke checklist · SNTL Lab"></p>
+<p align="center"><img src="assets/brand/readme-badges.svg" alt="Type: Design Rules · Scope: Reference · Dev: SNTL Lab · Format: Markdown · UI: Industrial · QA: Smoke Checklist"></p>
 
 [版权与复用边界（治理审阅稿）](COPYRIGHT.md) · [安全政策（治理审阅稿）](SECURITY.md)
 
@@ -33,10 +33,12 @@ YBKJ-UIForge 是面向友邦科技智慧维保体系与个人项目的通用 UI 
 
 ## 候选适用项目
 
+以下为候选适配范围，不代表已完成迁移或获得第三方素材授权。
+
 ### 友邦科技智慧维保项目
 
 - NexOps｜智维中枢
-- RefNova｜智维原核
+- RefNova｜智维元核
 - ZWCloudCode｜智维云码
 - GeoLink｜智维云图
 - LinkScope｜链境
@@ -78,3 +80,8 @@ YBKJ-UIForge 是面向友邦科技智慧维保体系与个人项目的通用 UI 
 版权及安全政策均为治理审阅稿，不授予新增公开许可，不宣称安全认证。第三方材料保留原许可。
 
 中文 README 为编辑基准，中英文同步维护，详细技术文档保留原语言。
+
+
+公开可见不等于开源许可；采用规则、图标、组件或代码片段前须核验权利和目标项目实际验证状态。
+
+[上一版完整主页（固定提交）](https://github.com/usydin/YBKJ-UIForge/blob/45a8b447cb2162cfb43088922705d87c3a6ac6ae/README.md)
