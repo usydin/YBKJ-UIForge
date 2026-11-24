@@ -8,7 +8,9 @@
 
 <p align="center">Industrial UI design principles and reusable engineering rules</p>
 
-<p align="center"><img src="assets/brand/readme-badges.svg" alt="Design rules · Markdown · Industrial UI · Smoke checklist · SNTL Lab"></p>
+<p align="center"><img src="assets/brand/readme-badges.svg" alt="Type: Design Rules · Scope: Reference · Dev: SNTL Lab · Format: Markdown · UI: Industrial · QA: Smoke Checklist"></p>
+
+[Copyright and reuse boundary](COPYRIGHT.md) · [Security policy](SECURITY.md)
 
 ## Overview
 
@@ -51,3 +53,8 @@ Personal projects: aileme, UmbTerra, RiftWorks and future selected products. The
 Both documents are governance review drafts; no new public license or security certification is asserted. Third-party materials retain their original terms.
 
 The Chinese README is the editorial reference. Keep both language versions aligned; linked technical documents retain their original language.
+
+
+Public visibility is not an open-source license. Verify rights and target-project qualification before adopting rules, icons, components or snippets.
+
+[Previous full homepage (pinned commit)](https://github.com/usydin/YBKJ-UIForge/blob/45a8b447cb2162cfb43088922705d87c3a6ac6ae/README.en.md)
