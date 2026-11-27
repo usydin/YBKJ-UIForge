@@ -1,0 +1,509 @@
+{
+  "schema": "uiforge-explicit-contrast-pairs-v1",
+  "date": "2026-11-27",
+  "threshold": 4.5,
+  "scope": "Selected opaque text/background token pairs, optional one explicit translucent sRGB background overlay; static assumptions, no browser cascade, alpha text, gradient, typography or UI qualification.",
+  "sources": [
+    {
+      "repository": "usydin/YBKJ-LinkScope-V2",
+      "ref": "37a263c30759750db30a89ed3a61c49bd240eefe",
+      "path": "src/index.css",
+      "blob": "d5bc39e7f612cc2be6fc1efcfe83852dc5b7873c"
+    },
+    {
+      "repository": "usydin/YBKJ-NotiVision",
+      "ref": "9ea545cf599f98e9976041399da388f09882ea0b",
+      "path": "packages/design-system/src/tokens.css",
+      "blob": "adde2e09cb0cde3e1c656f3c14c9c50dfacfca7a"
+    },
+    {
+      "repository": "usydin/HaoHomie-workflow2026",
+      "ref": "0e5fff05438f2d984dba850707eaff51ae9c7391",
+      "path": "frontend-react/src/signature/tokens.css",
+      "blob": "4bbfa962b6ee0ad164b98060a4ad67884bdefe74"
+    }
+  ],
+  "counts": {
+    "pairs": 26,
+    "pass": 15,
+    "below_target": 11,
+    "proposals": 11
+  },
+  "rows": [
+    {
+      "id": "LinkScope/light/faint-panel",
+      "product": "LinkScope",
+      "theme": "light",
+      "role": "faint-panel",
+      "foreground_token": "--text-faint",
+      "background_token": "--bg-panel",
+      "foreground": "#8090a1",
+      "background": "#ffffff",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 3.27,
+        "pass": false
+      },
+      "proposed_text_only": "#596b7e",
+      "proposed_result": {
+        "ratio": 5.484,
+        "pass": true
+      }
+    },
+    {
+      "id": "LinkScope/light/faint-sidebar",
+      "product": "LinkScope",
+      "theme": "light",
+      "role": "faint-sidebar",
+      "foreground_token": "--text-faint",
+      "background_token": "--bg-panel-2",
+      "foreground": "#8090a1",
+      "background": "#fbfcfd",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 3.184,
+        "pass": false
+      },
+      "proposed_text_only": "#596b7e",
+      "proposed_result": {
+        "ratio": 5.339,
+        "pass": true
+      }
+    },
+    {
+      "id": "LinkScope/light/badge-ok",
+      "product": "LinkScope",
+      "theme": "light",
+      "role": "badge-ok",
+      "foreground_token": "--color-ok",
+      "background_token": "--bg-panel",
+      "foreground": "#43b581",
+      "background": "#ffffff",
+      "kind": "explicit_token_pair_not_rendered",
+      "overlay": {
+        "token": "--surface-ok",
+        "color": "#43b581",
+        "alpha": 0.12
+      },
+      "observed": {
+        "ratio": 2.315,
+        "pass": false
+      },
+      "proposed_text_only": "#176344",
+      "proposed_result": {
+        "ratio": 6.507,
+        "pass": true
+      }
+    },
+    {
+      "id": "LinkScope/light/badge-warn",
+      "product": "LinkScope",
+      "theme": "light",
+      "role": "badge-warn",
+      "foreground_token": "--color-warn",
+      "background_token": "--bg-panel",
+      "foreground": "#d3a15a",
+      "background": "#ffffff",
+      "kind": "explicit_token_pair_not_rendered",
+      "overlay": {
+        "token": "--surface-warn",
+        "color": "#d3a15a",
+        "alpha": 0.14
+      },
+      "observed": {
+        "ratio": 2.093,
+        "pass": false
+      },
+      "proposed_text_only": "#805018",
+      "proposed_result": {
+        "ratio": 6.129,
+        "pass": true
+      }
+    },
+    {
+      "id": "LinkScope/light/badge-danger",
+      "product": "LinkScope",
+      "theme": "light",
+      "role": "badge-danger",
+      "foreground_token": "--color-danger",
+      "background_token": "--bg-panel",
+      "foreground": "#c96b67",
+      "background": "#ffffff",
+      "kind": "explicit_token_pair_not_rendered",
+      "overlay": {
+        "token": "--surface-danger",
+        "color": "#c96b67",
+        "alpha": 0.14
+      },
+      "observed": {
+        "ratio": 3.105,
+        "pass": false
+      },
+      "proposed_text_only": "#922f32",
+      "proposed_result": {
+        "ratio": 6.713,
+        "pass": true
+      }
+    },
+    {
+      "id": "LinkScope/dark/faint-panel",
+      "product": "LinkScope",
+      "theme": "dark",
+      "role": "faint-panel",
+      "foreground_token": "--text-faint",
+      "background_token": "--bg-panel",
+      "foreground": "#6c7b89",
+      "background": "#151f29",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 3.835,
+        "pass": false
+      },
+      "proposed_text_only": "#91a1b0",
+      "proposed_result": {
+        "ratio": 6.293,
+        "pass": true
+      }
+    },
+    {
+      "id": "LinkScope/dark/faint-sidebar",
+      "product": "LinkScope",
+      "theme": "dark",
+      "role": "faint-sidebar",
+      "foreground_token": "--text-faint",
+      "background_token": "--bg-panel-2",
+      "foreground": "#6c7b89",
+      "background": "#101821",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 4.114,
+        "pass": false
+      },
+      "proposed_text_only": "#91a1b0",
+      "proposed_result": {
+        "ratio": 6.75,
+        "pass": true
+      }
+    },
+    {
+      "id": "LinkScope/dark/badge-ok",
+      "product": "LinkScope",
+      "theme": "dark",
+      "role": "badge-ok",
+      "foreground_token": "--color-ok",
+      "background_token": "--bg-panel",
+      "foreground": "#43b581",
+      "background": "#151f29",
+      "kind": "explicit_token_pair_not_rendered",
+      "overlay": {
+        "token": "--surface-ok",
+        "color": "#43b581",
+        "alpha": 0.1
+      },
+      "observed": {
+        "ratio": 5.519,
+        "pass": true
+      }
+    },
+    {
+      "id": "LinkScope/dark/badge-warn",
+      "product": "LinkScope",
+      "theme": "dark",
+      "role": "badge-warn",
+      "foreground_token": "--color-warn",
+      "background_token": "--bg-panel",
+      "foreground": "#d3a15a",
+      "background": "#151f29",
+      "kind": "explicit_token_pair_not_rendered",
+      "overlay": {
+        "token": "--surface-warn",
+        "color": "#d3a15a",
+        "alpha": 0.12
+      },
+      "observed": {
+        "ratio": 5.826,
+        "pass": true
+      }
+    },
+    {
+      "id": "LinkScope/dark/badge-danger",
+      "product": "LinkScope",
+      "theme": "dark",
+      "role": "badge-danger",
+      "foreground_token": "--color-danger",
+      "background_token": "--bg-panel",
+      "foreground": "#c96b67",
+      "background": "#151f29",
+      "kind": "explicit_token_pair_not_rendered",
+      "overlay": {
+        "token": "--surface-danger",
+        "color": "#c96b67",
+        "alpha": 0.12
+      },
+      "observed": {
+        "ratio": 3.989,
+        "pass": false
+      },
+      "proposed_text_only": "#f1a29c",
+      "proposed_result": {
+        "ratio": 7.167,
+        "pass": true
+      }
+    },
+    {
+      "id": "NotiVision/light/device-normal",
+      "product": "NotiVision",
+      "theme": "light",
+      "role": "device-normal",
+      "foreground_token": "--nv-device-state-normal",
+      "background_token": "--nv-device-state-normal-bg",
+      "foreground": "#12855f",
+      "background": "#e8f6f0",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 4.151,
+        "pass": false
+      },
+      "proposed_text_only": "#0c694a",
+      "proposed_result": {
+        "ratio": 6.019,
+        "pass": true
+      }
+    },
+    {
+      "id": "NotiVision/light/device-warning",
+      "product": "NotiVision",
+      "theme": "light",
+      "role": "device-warning",
+      "foreground_token": "--nv-device-state-warning",
+      "background_token": "--nv-device-state-warning-bg",
+      "foreground": "#b87417",
+      "background": "#fdf3e3",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 3.443,
+        "pass": false
+      },
+      "proposed_text_only": "#84510e",
+      "proposed_result": {
+        "ratio": 6.038,
+        "pass": true
+      }
+    },
+    {
+      "id": "NotiVision/light/device-unknown",
+      "product": "NotiVision",
+      "theme": "light",
+      "role": "device-unknown",
+      "foreground_token": "--nv-device-state-unknown",
+      "background_token": "--nv-device-state-unknown-bg",
+      "foreground": "#747f89",
+      "background": "#f0f2f4",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 3.641,
+        "pass": false
+      },
+      "proposed_text_only": "#505c67",
+      "proposed_result": {
+        "ratio": 6.1,
+        "pass": true
+      }
+    },
+    {
+      "id": "NotiVision/light/device-offline",
+      "product": "NotiVision",
+      "theme": "light",
+      "role": "device-offline",
+      "foreground_token": "--nv-device-state-offline",
+      "background_token": "--nv-device-state-offline-bg",
+      "foreground": "#616d78",
+      "background": "#edf0f2",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 4.625,
+        "pass": true
+      }
+    },
+    {
+      "id": "NotiVision/light/device-fire",
+      "product": "NotiVision",
+      "theme": "light",
+      "role": "device-fire",
+      "foreground_token": "--nv-device-state-fire",
+      "background_token": "--nv-device-state-fire-bg",
+      "foreground": "#842525",
+      "background": "#f8dddd",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 7.207,
+        "pass": true
+      }
+    },
+    {
+      "id": "NotiVision/light/device-fault",
+      "product": "NotiVision",
+      "theme": "light",
+      "role": "device-fault",
+      "foreground_token": "--nv-device-state-fault",
+      "background_token": "--nv-device-state-fault-bg",
+      "foreground": "#b83539",
+      "background": "#fdecec",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 5.098,
+        "pass": true
+      }
+    },
+    {
+      "id": "HaoHomie Signature/light/primary-button",
+      "product": "HaoHomie Signature",
+      "theme": "light",
+      "role": "primary-button",
+      "foreground_token": "--sig-on",
+      "background_token": "--sig-accent",
+      "foreground": "#fff",
+      "background": "#226b51",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 6.383,
+        "pass": true
+      }
+    },
+    {
+      "id": "HaoHomie Signature/light/selected-nav",
+      "product": "HaoHomie Signature",
+      "theme": "light",
+      "role": "selected-nav",
+      "foreground_token": "--sig-accent",
+      "background_token": "--sig-deep",
+      "foreground": "#226b51",
+      "background": "#dce9df",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 5.096,
+        "pass": true
+      }
+    },
+    {
+      "id": "HaoHomie Signature/light/faint-panel",
+      "product": "HaoHomie Signature",
+      "theme": "light",
+      "role": "faint-panel",
+      "foreground_token": "--sig-faint",
+      "background_token": "--sig-panel",
+      "foreground": "#596e62",
+      "background": "#fafbf8",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 5.277,
+        "pass": true
+      }
+    },
+    {
+      "id": "HaoHomie Signature/light/muted-panel",
+      "product": "HaoHomie Signature",
+      "theme": "light",
+      "role": "muted-panel",
+      "foreground_token": "--sig-muted",
+      "background_token": "--sig-panel",
+      "foreground": "#4e6257",
+      "background": "#fafbf8",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 6.301,
+        "pass": true
+      }
+    },
+    {
+      "id": "HaoHomie Signature/light/status-panel",
+      "product": "HaoHomie Signature",
+      "theme": "light",
+      "role": "status-panel",
+      "foreground_token": "--sig-gold",
+      "background_token": "--sig-panel",
+      "foreground": "#85501a",
+      "background": "#fafbf8",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 6.399,
+        "pass": true
+      }
+    },
+    {
+      "id": "HaoHomie Signature/dark/primary-button",
+      "product": "HaoHomie Signature",
+      "theme": "dark",
+      "role": "primary-button",
+      "foreground_token": "--sig-on",
+      "background_token": "--sig-accent",
+      "foreground": "#14291f",
+      "background": "#a4e4ca",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 10.63,
+        "pass": true
+      }
+    },
+    {
+      "id": "HaoHomie Signature/dark/selected-nav",
+      "product": "HaoHomie Signature",
+      "theme": "dark",
+      "role": "selected-nav",
+      "foreground_token": "--sig-accent",
+      "background_token": "--sig-deep",
+      "foreground": "#a4e4ca",
+      "background": "#293d34",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 8.021,
+        "pass": true
+      }
+    },
+    {
+      "id": "HaoHomie Signature/dark/faint-panel",
+      "product": "HaoHomie Signature",
+      "theme": "dark",
+      "role": "faint-panel",
+      "foreground_token": "--sig-faint",
+      "background_token": "--sig-panel",
+      "foreground": "#95a39c",
+      "background": "#202624",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 5.862,
+        "pass": true
+      }
+    },
+    {
+      "id": "HaoHomie Signature/dark/muted-panel",
+      "product": "HaoHomie Signature",
+      "theme": "dark",
+      "role": "muted-panel",
+      "foreground_token": "--sig-muted",
+      "background_token": "--sig-panel",
+      "foreground": "#b3beb8",
+      "background": "#202624",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 8.045,
+        "pass": true
+      }
+    },
+    {
+      "id": "HaoHomie Signature/dark/status-panel",
+      "product": "HaoHomie Signature",
+      "theme": "dark",
+      "role": "status-panel",
+      "foreground_token": "--sig-gold",
+      "background_token": "--sig-panel",
+      "foreground": "#e5b77e",
+      "background": "#202624",
+      "kind": "explicit_token_pair_not_rendered",
+      "observed": {
+        "ratio": 8.362,
+        "pass": true
+      }
+    }
+  ]
+}
